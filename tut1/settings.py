@@ -80,16 +80,6 @@ WSGI_APPLICATION = 'tut1.wsgi.application'
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }'''
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tut1db',
-        'USER': 'jangolocal',
-        'PASSWORD': 'jangolocalpwd',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
-    }
-}
 
 
 # Password validation
