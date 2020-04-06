@@ -81,7 +81,7 @@ $ python manage.py runserver
 // verify at localhost, cant log in ( no user ) - exit python server and creat user
 http://127.0.0.1:8000/admin
 
-$ python manage.py createsuperuser --username=vannia --email=hvannia@gmail.com
+$ python manage.py createsuperuser --username=username --email=email@at.com
 $ python manage.py runserver
 http://127.0.0.1:8000/admin
 $ python manage.py changepassword
